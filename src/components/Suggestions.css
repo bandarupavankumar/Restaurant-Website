@@ -1,0 +1,59 @@
+.suggestions-section {
+    padding: 4rem 0;
+    background: #fff;
+    border-top: 10px solid var(--gray-100);
+}
+
+.suggestions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.suggestion-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform 0.3s;
+    border: 1px solid #f0f0f0;
+}
+
+.suggestion-card:hover {
+    transform: translateY(-5px);
+}
+
+.suggestion-card img {
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sugg-content {
+    padding: 1.5rem;
+}
+
+.sugg-content h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+}
+
+.sugg-content p {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.btn-text {
+    background: none;
+    padding: 0;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+@media(max-width: 768px) {
+    .suggestions-grid {
+        grid-template-columns: 1fr;
+    }
+}
