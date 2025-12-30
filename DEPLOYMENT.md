@@ -27,9 +27,11 @@ git push origin main
 3.  Import the same GitHub repo.
 4.  **Framework Preset**: Vite.
 5.  **Root Directory**: `.` (default).
-6.  **Environment Variables**:
-    *   `VITE_API_URL`: Paste your Render Backend URL (e.g., `https://my-food-api.onrender.com`) **(IMPORTANT: No trailing slash)**.
-    *   `VITE_CLERK_PUBLISHABLE_KEY`: `pk_test_bm90ZWQtc3BhcnJvdy01Ny5jbGVyay5hY2NvdW50cy5kZXYk`.
+6.  **Environment Variables** (Add these in "Environment" tab):
+    *   **Key**: `VITE_API_URL`
+        **Value**: `https://your-backend-url.onrender.com` (Paste your actual Render URL here)
+    *   **Key**: `VITE_CLERK_PUBLISHABLE_KEY`
+        **Value**: `pk_test_bm90ZWQtc3BhcnJvdy01Ny5jbGVyay5hY2NvdW50cy5kZXYk`
 7.  Click **Deploy**.
 
 ## 4. Final Check
