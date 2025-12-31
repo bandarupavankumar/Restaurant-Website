@@ -4,7 +4,7 @@ A modern, full-stack food delivery application built with the **MERN Stack** (Mo
 Features a beautiful UI, smooth animations, user authentication, and a comprehensive admin dashboard.
 
 ![Project Banner](https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=1000)
-*(Replace this link with your own hero screenshot)*
+
 
 ## ✨ Features
 
